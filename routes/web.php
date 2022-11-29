@@ -13,17 +13,39 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
-});
+}); */
 
 Route::get('/dashboard', function () {
     return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
+})
+    ->middleware(['auth'])
+    ->name('dashboard');
 
 require __DIR__.'/auth.php';
 
-Route::get('accueil', function () {
+Route::get('/users', [UsersController::class, 'index'])
+    ->middleware(['auth', 'admin'])
+    ->name('users');
+
+Route::get('/users/profile/{user}', [UsersController::class, 'show'])
+    ->name('users.show');
+
+Route::get('/users/{user}', [UsersController::class, 'edit'])
+    ->middleware(['auth'])
+    ->name('users.edit');
+
+Route::put('/users/{user}', [UsersController::class, 'update'])
+    ->middleware(['auth'])
+    ->name('users.update');
+
+Route::delete('/users/{user}', [UsersController::class, 'destroy'])
+    ->middleware(['auth', 'admin'])
+    ->name('users.destroy');
+
+
+Route::get('/', function () {
     return view('bienvenue');
 });
 
@@ -38,3 +60,5 @@ Route::get('contact', function () {
 Route::get('mentionsLegales', function () {
     return view('mentionsLegales');
 });
+
+// PAGE 7

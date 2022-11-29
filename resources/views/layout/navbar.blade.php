@@ -11,7 +11,7 @@
             <ul class="navbar-nav ms-auto ">
                 <li class="nav-item">
                     <a class="nav-link mx-2 active" aria-current="page"
-                       href="accueil"><i class="fa-solid fa-house"></i> Accueil</a>
+                       href="/"><i class="fa-solid fa-house"></i> Accueil</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link mx-2" href="apropos">À propos</a>
