@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/../FenuaTechBlog/sql/articles.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/../FenuaTechBlog/sql/comments.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/../FenuaTechBlog/sql/db.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/../FenuaTechBlog/src/DAO/ArticleDAO.php" dialect="MySQL" />
+  </component>
+</project>

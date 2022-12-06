@@ -154,6 +154,11 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
@@ -199,6 +204,8 @@
       <workItem from="1669742350276" duration="5359000" />
       <workItem from="1669751521777" duration="595000" />
       <workItem from="1670001912268" duration="7013000" />
+      <workItem from="1670277839643" duration="12619000" />
+      <workItem from="1670346470368" duration="6457000" />
     </task>
     <servers />
   </component>
