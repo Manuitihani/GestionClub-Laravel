@@ -25,11 +25,24 @@
                          Membres
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="login"><i class="fa-solid fa-arrow-right-to-bracket"></i> Connexion</a></li>
+                        @auth
+                            <li><a href="{{ route('users.edit', Auth::user()) }}">Profil</a></li>
+                            <form action="{{ route('logout') }}" method="POST">
+                                @csrf
+                                <button type="submit"
+                                        href="{{ route('logout') }}">Déconnexion</button>
+                            </form>
+                            @if(Auth::user()->admin)
+                                <li><a href="{{ route('dashboard') }}">Dashboard</a></li>
+                            @endif
+                        @else
+                            <li><a href="{{ route('login') }}">Connexion</a></li>
+                        @endauth
+                        {{--<li><a class="dropdown-item" href="login"><i class="fa-solid fa-arrow-right-to-bracket"></i> Connexion</a></li>
                         <li><a class="dropdown-item" href=""><i class="fa-solid fa-user"></i> Profil</a></li>
                         <li><a class="dropdown-item" href=""><i class="fa-solid fa-sliders"></i> Préférences</a></li>
                         <div class="dropdown-divider"></div>
-                        <li><a class="dropdown-item" href=""><i class="fa-solid fa-arrow-right-from-bracket"></i> Se déconnecter</a></li>
+                        <li><a class="dropdown-item" href=""><i class="fa-solid fa-arrow-right-from-bracket"></i> Se déconnecter</a></li>--}}
                     </ul>
                 </li>
             </ul>
