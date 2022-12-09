@@ -27,11 +27,13 @@
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         @auth
                             <li><a href="{{ route('users.edit', Auth::user()) }}">Profil</a></li>
+
+                            {{-- Se déconnecter --}}
                             <form action="{{ route('logout') }}" method="POST">
                                 @csrf
-                                <button type="submit"
-                                        href="{{ route('logout') }}">Déconnexion</button>
+                                <button type="submit" href="{{ route('logout') }}">Déconnexion</button>
                             </form>
+
                             @if(Auth::user()->admin)
                                 <li><a href="{{ route('dashboard') }}">Dashboard</a></li>
                             @endif

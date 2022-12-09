@@ -33,7 +33,7 @@
                     @enderror
                 </div>
                 <div class="py-2">
-                    <input type="submit" class="cursor-pointer inline-flex items-center w-1/4 py-4 border border-gray-400
+                    <input type="submit" class="cursor-pointer inline-flex items-center w-1/4 px-2 py-4 border border-gray-400
                     shadow-sm text-base font-medium rounded-md text-gray-700 bg-white justify-center" value="Modifier">
                 </div>
             </div>
