@@ -16,7 +16,11 @@
 <body>
 
 @include('layout.navbar')
-@include('layout.header')
+
+@if(Route::currentRouteName() == '') {{--page accueil (fonctionne pas) --}}
+    @include('layout.header')
+@endif
+
 
 <div class="container">
 

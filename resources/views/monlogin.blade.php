@@ -1,3 +1,4 @@
+{{--
 @extends("layout.master")
 
 @section('title')
@@ -44,7 +45,8 @@
                             <button type="button" class="btn btn-primary btn-block mb-4">Se connecter</button>
 
                             <!-- Boutons s'enregistrer avec -->
-                            {{--<div class="text-center">
+                            --}}
+{{--<div class="text-center">
                                 <p>Pas un membre? <a href="#!">S'enregistrer</a></p>
                                 <p>ou s'inscrire avec:</p>
                                 <button type="button" class="btn btn-link btn-floating mx-1">
@@ -62,7 +64,8 @@
                                 <button type="button" class="btn btn-link btn-floating mx-1">
                                     <i class="fab fa-github"></i>
                                 </button>
-                            </div>--}}
+                            </div>--}}{{--
+
 
                         </form>
                     </div>
@@ -71,3 +74,4 @@
         </div>
     </div>
 @endsection
+--}}

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="03aca707-d902-4e50-937a-b1c9f9304aa5" name="Changes" comment="Initialisation TD5" />
     <option name="SHOW_DIALOG" value="false" />
@@ -143,26 +146,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/DOSSIERS_ETUDIANTS/Manuitihani/Serveur/EasyPHP-Devserver-17/eds-www/Manuitihani/FenuaTechBlog&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;D:/DOSSIERS_ETUDIANTS/Manuitihani/Serveur/node-v16.17.1-win-x86/node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/DOSSIERS_ETUDIANTS/Manuitihani/Serveur/EasyPHP-Devserver-17/eds-www/Manuitihani/GestionClub-Laravel/resources",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "D:/DOSSIERS_ETUDIANTS/Manuitihani/Serveur/node-v16.17.1-win-x86/node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DOSSIERS_ETUDIANTS\Manuitihani\Serveur\EasyPHP-Devserver-17\eds-www\Manuitihani\GestionClub-Laravel\resources" />
       <recent name="D:\Etudiant\Manuitihani\Serveur\EasyPHP-Devserver-17\eds-www\Manuitihani\GestionClub(Laravel)\resources\views\img" />
     </key>
   </component>
@@ -208,6 +216,7 @@
       <workItem from="1670346470368" duration="6457000" />
       <workItem from="1670518737276" duration="424000" />
       <workItem from="1670606004909" duration="10532000" />
+      <workItem from="1673370226261" duration="6283000" />
     </task>
     <servers />
   </component>
