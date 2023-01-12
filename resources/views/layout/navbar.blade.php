@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
+<nav class="navbar navbar-expand-lg navbar-light bg-indigo-50 p-3">
     <div class="container-fluid">
-        <a class="navbar-brand" href="">
+        <a class="navbar-brand" href="/">
             @if(Route::currentRouteName() == 'users.edit') {{-- ou Route::is('') --}}
                 <img src="../img/logo.png" width="50" height="50" alt="" class="d-inline-block">
                 Gestion du club
