@@ -32,14 +32,14 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         @auth
-                            <li><a href="{{ route('users.edit', Auth::user()) }}">Profil</a></li>
+                            <li><a href="{{ route('users.edit', Auth::user()) }}" class="text-decoration-none pl-3">Profil</a></li>
 
                             @if(Auth::user()->admin)
-                                <li><a href="{{ route('dashboard') }}">Dashboard</a></li>
+                                <li><a href="{{ route('dashboard') }}" class="text-decoration-none pl-3">Dashboard</a></li>
                             @endif
 
                             {{-- Se déconnecter --}}
-                            <form action="{{ route('logout') }}" method="POST">
+                            <form action="{{ route('logout') }}" method="POST" class="text-decoration-none pl-3">
                                 @csrf
                                 <button type="submit" href="{{ route('logout') }}">Déconnexion</button>
                             </form>
