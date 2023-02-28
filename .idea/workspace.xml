@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03aca707-d902-4e50-937a-b1c9f9304aa5" name="Changes" comment="Initialisation TD5" />
+    <list default="true" id="03aca707-d902-4e50-937a-b1c9f9304aa5" name="Changes" comment="Initialisation TD5">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthenticatedSessionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthenticatedSessionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/tailwind.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/tailwind.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/navbar.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,6 +148,9 @@
       <path value="$PROJECT_DIR$/vendor/laravel/breeze" />
     </include_path>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2FKHlTRzj57tQYNGl8CmwEtYEvD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -219,6 +230,10 @@
       <workItem from="1673370226261" duration="6283000" />
       <workItem from="1673553566315" duration="3211000" />
       <workItem from="1673628986413" duration="1600000" />
+      <workItem from="1677604558668" duration="7054000" />
+      <workItem from="1677611760092" duration="753000" />
+      <workItem from="1677612529955" duration="265000" />
+      <workItem from="1677613022093" duration="1592000" />
     </task>
     <servers />
   </component>
