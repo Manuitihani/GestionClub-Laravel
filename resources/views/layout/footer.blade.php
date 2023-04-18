@@ -1,4 +1,7 @@
+<div style="min-height: 100px"></div>
+
 <hr>
+
 <footer class="app-footer my-3">
     <div class="container">
         <!--Copyright-->

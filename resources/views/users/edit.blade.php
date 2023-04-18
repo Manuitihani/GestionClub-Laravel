@@ -3,7 +3,7 @@
 @section('title', 'Modification de mon profil')
 
 @section('content')
-    <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
+    <div class="bg-gray-100 overflow-hidden shadow-sm sm:rounded-lg mt-8">
         <h3 class="text-3xl mx-4 my-4">Modification de mon profil</h3>
         @if(session('success'))
             <div class="text-xl text-green-400">
@@ -31,6 +31,19 @@
                     @error('email')
                         <span class="text-red-600">{{ $message }}</span>
                     @enderror
+                </div>
+                <div class="py-2">
+                    <label for="admin" class="block text-sm font-medium text-gray-700">Rôle</label>
+                    <div class="d-flex py-2">
+                        <label for="admin" class="block text-sm font-medium text-gray-700">Utilisateur</label>
+                        <input type="radio" name="notadmin" id="admin" class="mt-1 shadow-sm border-gray-300 mx-2">
+                        <label for="admin" class="block text-sm font-medium text-gray-700">Administrateur</label>
+                        <input type="radio" name="isadmin" id="admin" class="mt-1 shadow-sm border-gray-300 mx-2"
+                               value="{{ old('admin', $user->admin) }}">
+                    </div>
+                    {{--@error('role')
+                        <span class="text-red-600">{{ $message }}</span>
+                    @enderror--}}
                 </div>
                 <div class="py-2">
                     <input type="submit" class="cursor-pointer inline-flex items-center w-1/4 px-2 py-4 border border-gray-400

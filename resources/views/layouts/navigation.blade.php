@@ -2,7 +2,7 @@
     <!-- Primary Navigation Menu -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-16">
-            <div class="flex">
+            {{--<div class="flex">
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
                     <a href="{{ route('dashboard') }}">
@@ -46,7 +46,7 @@
                         </form>
                     </x-slot>
                 </x-dropdown>
-            </div>
+            </div>--}}
 
             <!-- Hamburger -->
             <div class="-mr-2 flex items-center sm:hidden">

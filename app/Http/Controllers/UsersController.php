@@ -58,6 +58,7 @@ class UsersController extends Controller
         $validatedData = $request->validate([
             'name' => ['required', 'min:2', 'max:50'],
             'email' => 'required|email',
+            'admin' => 'required',
         ]);
         $user->update($validatedData);
         return redirect()->back()->with('success', 'Les informations ont bien été modifiées');
