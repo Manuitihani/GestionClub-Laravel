@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="03aca707-d902-4e50-937a-b1c9f9304aa5" name="Changes" comment="Initialisation TD5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/edit.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +156,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/DOSSIERS_ETUDIANTS/Manuitihani/Serveur/EasyPHP-Devserver-17/eds-www/Manuitihani/GestionClub-Laravel",
+    "last_opened_file_path": "D:/DOSSIERS_ETUDIANTS/Manuitihani/Serveur/EasyPHP-Devserver-17/eds-www/Manuitihani/tutoriel-vuejs-3-pour-debutant",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -232,6 +231,7 @@
       <workItem from="1677777389711" duration="580000" />
       <workItem from="1678750575560" duration="868000" />
       <workItem from="1681769555366" duration="12122000" />
+      <workItem from="1681841111043" duration="1291000" />
     </task>
     <servers />
   </component>
