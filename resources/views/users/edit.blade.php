@@ -36,9 +36,9 @@
                     <label for="admin" class="block text-sm font-medium text-gray-700">Rôle</label>
                     <div class="d-flex py-2">
                         <label for="admin" class="block text-sm font-medium text-gray-700">Utilisateur</label>
-                        <input type="radio" name="notadmin" id="admin" class="mt-1 shadow-sm border-gray-300 mx-2" value="0">
+                        <input type="radio" name="admin" id="admin" class="mt-1 shadow-sm border-gray-300 mx-2" value="0">
                         <label for="admin" class="block text-sm font-medium text-gray-700">Administrateur</label>
-                        <input type="radio" name="isadmin" id="admin" class="mt-1 shadow-sm border-gray-300 mx-2" value="1">
+                        <input type="radio" name="admin" id="admin" class="mt-1 shadow-sm border-gray-300 mx-2" value="1">
                     </div>
                     {{--@error('role')
                         <span class="text-red-600">{{ $message }}</span>
