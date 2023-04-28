@@ -13,7 +13,10 @@
                 <div class="card border-0 rounded-3 shadow-lg">
                     <div class="card-body p-4">
                         <div class="text-center">
-                            <div class="h1 fw-light mb-5"><b><u>Formulaire de contact</u></b></div>
+                            <div class="fw-light mb-5">
+                                <b class="h1"><u>Formulaire de contact</u></b>
+                                <p class="my-2">Vous souhaitez nous joindre ? Envoyez-nous un message !</p>
+                            </div>
                         </div>
 
                         <!-- * * * * * * * * * * * * * *

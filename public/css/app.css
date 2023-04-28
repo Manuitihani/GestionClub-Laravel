@@ -10278,3 +10278,15 @@ readers do not read off random characters that represent icons */
 .fa-steam-symbol:before {
   content: "\f3f6";
 }
+
+#navBar, #footer {
+    background-color: #d1fff4;
+}
+
+#footContent {
+    background-color: honeydew;
+}
+
+#divEdit {
+    margin-top: 10%;
+}

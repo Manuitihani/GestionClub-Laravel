@@ -3,8 +3,8 @@
 @section('title', 'Modification de mon profil')
 
 @section('content')
-    <div class="bg-gray-100 overflow-hidden shadow-sm sm:rounded-lg mt-8">
-        <h3 class="text-3xl mx-4 my-4">Modification de mon profil</h3>
+    <div id="divEdit" class="bg-gray-100 overflow-hidden shadow-sm sm:rounded-lg">
+        <h3 class="text-3xl px-4 py-4" style="background-color: lightgray">Modification de mon profil</h3>
         @if(session('success'))
             <div class="text-xl text-green-400">
                 {{ session('success') }}
@@ -32,18 +32,20 @@
                         <span class="text-red-600">{{ $message }}</span>
                     @enderror
                 </div>
-                <div class="py-2">
-                    <label for="admin" class="block text-sm font-medium text-gray-700">Rôle</label>
-                    <div class="d-flex py-2">
-                        <label for="admin" class="block text-sm font-medium text-gray-700">Utilisateur</label>
-                        <input type="radio" name="admin" id="admin" class="mt-1 shadow-sm border-gray-300 mx-2" value="0">
-                        <label for="admin" class="block text-sm font-medium text-gray-700">Administrateur</label>
-                        <input type="radio" name="admin" id="admin" class="mt-1 shadow-sm border-gray-300 mx-2" value="1">
+                @if(Auth::user()->admin and url()->previous() == route('users'))
+                    <div class="py-2">
+                        <label for="admin" class="block text-sm font-medium text-gray-700">Rôle</label>
+                        <div class="d-flex py-2">
+                            <label for="admin" class="block text-sm font-medium text-gray-700">Utilisateur</label>
+                            <input type="radio" name="admin" id="admin" class="mt-1 shadow-sm border-gray-300 mx-2" value="0">
+                            <label for="admin" class="block text-sm font-medium text-gray-700">Administrateur</label>
+                            <input type="radio" name="admin" id="admin" class="mt-1 shadow-sm border-gray-300 mx-2" value="1">
+                        </div>
+                        {{--@error('role')
+                            <span class="text-red-600">{{ $message }}</span>
+                        @enderror--}}
                     </div>
-                    {{--@error('role')
-                        <span class="text-red-600">{{ $message }}</span>
-                    @enderror--}}
-                </div>
+                @endif
                 <div class="py-2">
                     <input type="submit" class="cursor-pointer inline-flex items-center w-1/4 px-2 py-4 border border-gray-400
                     shadow-sm text-base font-medium rounded-md text-gray-700 bg-white justify-center" value="Modifier">

@@ -17,12 +17,12 @@
 
 @include('layout.navbar')
 
-@if(Route::currentRouteName() == '') {{--page accueil (fonctionne pas) --}}
+@if(collect(request()->segments())->last() == '') {{--page accueil (fonctionne pas) --}}
     @include('layout.header')
 @endif
 
 
-<div class="container">
+<div class="container min-vh-100">
     @yield('content')
 </div>
 

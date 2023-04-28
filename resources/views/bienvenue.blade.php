@@ -30,6 +30,11 @@
                 <a href="https://lycee2pirae.com/" class="btn btn-primary my-2" target="_blank">
                     Plus d'info!
                 </a>
+
+                {{--Horaire vie scolaire--}}
+                <h2 class="mt-5">Horaire de la vie scolaire</h2>
+                <hr>
+                <img src="img/viescolaire.jpg" alt="" class="w-75 mb-2">
             </div>
         </div>
     </div>

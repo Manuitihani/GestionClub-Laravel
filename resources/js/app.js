@@ -7,4 +7,6 @@ window.Alpine = Alpine;
 
 Alpine.start();
 
+var $ = jQuery.noConflict();
+
 
